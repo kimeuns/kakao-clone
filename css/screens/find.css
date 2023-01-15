@@ -99,3 +99,21 @@
 .open-post__likes span{
     margin-left: 3px;
 }
+
+@keyframes heartBeat {
+     0%{
+        color: white;
+        transform: none;
+     }
+     50%{
+        color: tomato;
+        transform: scale(2);
+     }
+     100%{
+        color: white;
+     }
+}
+.open-post__likes i:hover{
+    will-change: transform;
+    animation: heartBeat 1s linear infinite;
+}
