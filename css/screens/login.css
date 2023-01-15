@@ -1,5 +1,5 @@
 .welcome-header {
-    margin: 70px 0;
+    margin: 100px 0 70px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -34,16 +34,17 @@
     transition: border-color 0.3s ease-in-out; 
 }
 #login-form input::placeholder {
-    color: #999999 ;
+    font-weight: 100;
+    color: #ABABAB;
 } 
 #login-form input:focus{
     border-color: var(--yellow);
 }
 #login-form input[type="submit"]{
+    margin-top: 35px;
     background-color: var(--yellow);
     cursor: pointer;
     border-radius: 5px;
-    /* font-size: 16px; */
 }
 #login-form a{
     margin-top: 20px;
