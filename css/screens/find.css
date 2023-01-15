@@ -16,6 +16,7 @@
 }
 .open-chat{
     border-top: var(--main-border);
+    margin-bottom: 80px;
 }
 .open-chat__header{
     padding: 15px 0;
@@ -39,7 +40,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .open-post__title{
     font-size: 20px;
